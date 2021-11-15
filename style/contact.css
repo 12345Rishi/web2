@@ -11,12 +11,8 @@
 4. Menu
 5. Home
 6. Domain Search
-7. Why Choose Us
-8. Video
-9. Team
-10. Extra Content
-11. CTA
-12. Footer
+7. Contact
+8. Footer
 
 
 ******************************/
@@ -542,31 +538,31 @@ section
 }
 .cloud_1
 {
-	top: 164px;
+	top: 17px;
 	left: -138px;
 	-webkit-animation: cloud_anim 60s -50s linear infinite;
 	animation: cloud_anim 60s -50s linear infinite;
 }
 .cloud_2
 {
-	top: 107px;
+	top: -38px;
 	left: -138px;
-	-webkit-animation: cloud_anim 60s -13s linear infinite;
-	animation: cloud_anim 60s -13s linear infinite;
+	-webkit-animation: cloud_anim 60s -14s linear infinite;
+	animation: cloud_anim 60s -14s linear infinite;
 }
 .cloud_3
 {
-	top: 311px;
+	top: 165px;
 	left: -138px;
 	-webkit-animation: cloud_anim 60s -40s linear infinite;
 	animation: cloud_anim 60s -40s linear infinite;
 }
 .cloud_4
 {
-	top: 292px;
+	top: 146px;
 	left: -138px;
-	-webkit-animation: cloud_anim 60s -7s linear infinite;
-	animation: cloud_anim 60s -7s linear infinite;
+	-webkit-animation: cloud_anim 60s -8s linear infinite;
+	animation: cloud_anim 60s -8s linear infinite;
 	z-index: 2;
 }
 @-webkit-keyframes cloud_anim
@@ -789,343 +785,176 @@ section
 }
 
 /*********************************
-7. Why Choose Us
+7. Contact
 *********************************/
 
-.why
-{
-	width: 100%;
-	background: #FFFFFF;
-	padding-top: 94px;
-	padding-bottom: 94px;
-}
-.why_text
-{
-	margin-top: 51px;
-}
-.why_list
-{
-	margin-top: 38px;
-}
-.why_list ul li
-{
-	font-size: 15px;
-	font-weight: 400;
-	color: #656566;
-}
-.why_list ul li:not(:last-of-type)
-{
-	margin-bottom: 17px;
-}
-.why_list ul li > div
-{
-	width: 21px;
-	height: 21px;
-	border-radius: 50%;
-	background: #1befc5;
-	margin-right: 12px;
-}
-.why_list ul li > div::after
-{
-	display: block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	content: '';
-	background: #7836c6;
-	z-index: 1;
-}
-.why_image
-{
-	position: absolute;
-	right: 15px;
-	bottom: -57px;
-	width: calc(100% - 30px);
-}
-.why_image img
-{
-	max-width: 100%;
-}
-
-/*********************************
-8. Video
-*********************************/
-
-.video
-{
-	width: 100%;
-	height: 693px;
-}
-.video_content
-{
-	width: 100%;
-	height: 100%;
-}
-.video_play_icon
-{
-	width: 123px;
-	height: 123px;
-	border-radius: 50%;
-	background: #1befc5;
-}
-.video_play_icon a:focus
-{
-	outline: none !important;
-}
-.video_play_icon a
-{
-	display: block;
-	width: 100%;
-	height: 100%;
-}
-.video_play_icon i
-{
-	font-size: 36px;
-	color: #7836c6;
-	-webkit-transform: translateX(3px);
-	-moz-transform: translateX(3px);
-	-ms-transform: translateX(3px);
-	-o-transform: translateX(3px);
-	transform: translateX(3px);
-}
-.video_play_icon:hover a i
-{
-	color: #FFFFFF;
-}
-.video_title
-{
-	font-size: 36px;
-	font-weight: 700;
-	color: #FFFFFF;
-	line-height: 1.2;
-	margin-top: 36px;
-}
-
-/*********************************
-9. Team
-*********************************/
-
-.team
+.contact
 {
 	width: 100%;
 	background: #FFFFFF;
 	padding-top: 95px;
-	padding-bottom: 95px;
-}
-.section_text
-{
-	max-width: 990px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-.team_row
-{
-	margin-top: 86px;
-}
-.team_image
-{
-	width: 100%;
-}
-.team_image img
-{
-	max-width: 100%;
-}
-.team_content
-{
-	position: absolute;
-	left: 30px;
-	bottom: 25px;
-}
-.team_name a
-{
-	font-size: 20px;
-	font-weight: 500;
-	color: #FFFFFF;
-	line-height: 1.2;
-}
-.team_title
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #FFFFFF;
-	line-height: 1.2;
-	margin-top: 6px;
-	padding-left: 2px;
-}
-
-/*********************************
-10. Extra Content
-*********************************/
-
-.extra_section
-{
-	width: 100%;
-	background: #FFFFFF;
 	padding-bottom: 96px;
 }
-.extra_container
+.contact_title
 {
-	width: 100%;
-	overflow: hidden;
-	background: #25103f;
+	font-size: 30px;
+	font-weight: 700;
+	color: #1f1d22;
+	line-height: 0.75;
 }
-.extra_container a
+.contact_text
 {
-	display: block;
-	width: 100%;
+	margin-top: 33px;
 }
-.extra_content
+.contact_logo
 {
-	width: 100%;
-	height: 232px;
+	margin-top: 29px;
 }
-.extra_1
+.contact_logo a
 {
-	padding-left: 130px;
-}
-.extra_icon
-{
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	width: 157px;
-	height: 157px;
-}
-.extra_1 .extra_icon
-{
-	left: -41px;
-}
-.extra_2
-{
-	padding-left: 170px;
-}
-.extra_2 .extra_icon
-{
-	left: -27px;
-}
-.extra_icon img
-{
-	max-width: 100%;
-}
-.extra_title
-{
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 600;
-	color: #FFFFFF;
-	line-height: 1.2;
+	color: #7836c6;
 }
-.extra_title span
+.contact_logo a span
 {
 	color: #1befc5;
 }
-.extra_1 .extra_title span
+.contact_list
 {
-	font-size: 36px;
+	margin-top: 22px;
+	max-width: 160px;
 }
-.extra_text
+.contact_list ul li
 {
-	margin-top: 15px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #1f1d22;
+	line-height: 1.6;
 }
-.extra_text p
+.contact_list ul li:not(:last-of-type)
 {
-	font-size: 14px;
-	font-weight: 400;
-	color: #FFFFFF;
-	line-height: 2;
+	margin-bottom: 25px;
 }
-
-/*********************************
-11. CTA
-*********************************/
-
-.cta
+.contact_social
 {
-	width: 100%;
-	background: #715691;
+	margin-top: 43px;
 }
-.cta_content
+.contact_social ul li:not(:last-child)
 {
-	width: 100%;
-	height: 135px;
-	padding-left: 5px;
+	margin-right: 22px;
 }
-.cta_title
+.contact_social ul li a i
 {
-	display: inline-block;
-	font-size: 36px;
-	font-weight: 700;
-	color: #FFFFFF;
-	line-height: 1.2;
+	padding: 5px;
+	color: #474747;
 }
-.cta_price
+.contact_social ul li a i:hover
 {
-	font-size: 48px;
 	color: #1befc5;
-	font-weight: 700;
-	-webkit-transform: translateY(-8px);
-	-moz-transform: translateY(-8px);
-	-ms-transform: translateY(-8px);
-	-o-transform: translateY(-8px);
-	transform: translateY(-8px);
 }
-.cta_price span
+.message_form
 {
-	font-size: 16px;
+	margin-top: 40px;
 }
-.cta_price span:first-child
+.message_input
 {
-	margin-right: 5px;
+	width: 100%;
+	height: 54px;
+	background: #f1f6f8;
+	border: none;
+	outline: none;
+	padding-left: 34px;
 }
-.cta_button
+.message_input:not(:last-child)
 {
-	width: 148px;
-	height: 63px;
-	border-radius: 12px;
+	margin-bottom: 8px;
+}
+.message_input::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #aeaeae !important;
+}
+.message_input:-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #aeaeae !important;
+}
+.message_input::-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #aeaeae !important;
+} 
+.message_input:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #aeaeae !important;
+}
+.message_input::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #aeaeae !important;
+}
+.message_textarea
+{
+	height: 250px;
+	padding-top: 17px;
+}
+.message_form_button
+{
+	width: 130px;
+	height: 60px;
 	background: #1befc5;
-	text-align: center;
-	-webkit-transform: translateY(4px);
-	-moz-transform: translateY(4px);
-	-ms-transform: translateY(4px);
-	-o-transform: translateY(4px);
-	transform: translateY(4px);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: #1f1d22;
+	border-radius: 12px;
+	cursor: pointer;
+	margin-top: 3px;
 }
-.cta_button a
+.map_row
 {
-	display: block;
-	font-size: 16px;
-	font-weight: 700;
-	color: #35214d;
-	line-height: 63px;
+	margin-top: 96px;
 }
-.cta_button:hover
+.contact_map
 {
-	background: #26064c;
+	width: 100%;
 }
-.cta_button:hover a
+.map
 {
-	color: #FFFFFF;
+	width: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 397px;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
 }
 
 /*********************************
-12. Footer
+8. Footer
 *********************************/
 
 .footer
